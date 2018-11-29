@@ -1,6 +1,6 @@
 /// Make connection to server
 
-var socket = io.connect("http://localhost:9005");
+var socket = io.connect("https://tranquil-shelf-86845.herokuapp.com/");
 
 /// Query DOM
 var form = document.getElementById("form");
